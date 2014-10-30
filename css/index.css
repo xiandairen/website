@@ -1,0 +1,52 @@
+.top-bg {
+    background-color: #eee;
+    border-bottom: 1px solid #D6D6D6;
+    -moz-box-shadow: 5px 2px 5px #dedcdc; /* 老的 Firefox */
+    box-shadow: 5px 2px 5px #dedcdc;
+}
+
+.top-height {
+    height: 30px;
+    line-height: 30px;
+}
+.logo{
+    width: 140px;
+    height: 130px;
+}
+.logo-line{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #a8a8a8;
+}
+
+.two-code{
+    display: block;
+    width: 90px;
+    height: 86px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.two-code+small{
+    display: block;
+    text-align: center;
+}
+.nav-list{
+
+}
+.nav-list a{
+    color: #fff;
+}
+.nav-list li>a:hover{
+    background-color: #038f52;
+}
+
+.h20{
+    display: block;
+    clear: both;
+    font-size: 0px;
+    overflow: hidden;
+    height: 20px;
+    visibility: hidden;
+}
