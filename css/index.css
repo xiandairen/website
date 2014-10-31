@@ -41,7 +41,33 @@
 .nav-list li>a:hover{
     background-color: #038f52;
 }
-
+.mg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   /* border: 1px solid #ededed;*/
+}
+.caseshow-box{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+.caseshow{
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 20px;
+}
+.imgshow img{
+    margin: 0 auto;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.h6{
+    line-height: 34px;
+}
+.line47{
+    line-height: 47px;
+}
 .h20{
     display: block;
     clear: both;
@@ -49,4 +75,10 @@
     overflow: hidden;
     height: 20px;
     visibility: hidden;
+}
+.inline{
+    display: inline;
+}
+.bg-pulic-ash{
+    background-color: #fafafa;
 }
