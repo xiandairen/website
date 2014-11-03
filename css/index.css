@@ -59,6 +59,43 @@
 .imgshow img{
     margin: 0 auto;
 }
+.new-customers-box{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0;
+}
+.new-customers{
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 20px;
+}
+.matter-list li{
+    line-height: 30px;
+    margin-bottom: 2px;
+}
+.matter-list li a{
+    color:#878787;
+    text-decoration: none;
+}
+.matter-list li a:hover{
+    color:#01af63;
+    text-decoration: none;
+}
+.borderash{
+    border: 1px solid #eee;
+}
+.h41{
+    height: 41px;
+    overflow: hidden;
+}
+.h4-title{
+    height: 30px;
+    background-color: #fafafa;
+    line-height: 30px;
+    text-indent: 3%;
+    border-bottom:1px solid #eee;
+    display: block;
+    margin: 0;
+}
 .mb10{
     margin-bottom: 10px;
 }
