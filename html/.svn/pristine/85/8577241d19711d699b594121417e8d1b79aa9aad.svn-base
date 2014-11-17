@@ -1,0 +1,338 @@
+html, body {
+     width: 100%;
+     height: 100%;
+ }
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/italy-banner.jpg");
+    background-color: #282828;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='E:/html/images/italy-banner.jpg', sizingMethod='scale');
+    display: none;
+}
+
+.nav-box {
+    width: 100%;
+    height: 70px;
+    background-color: #0f131c;
+    /*filter: alpha(opacity=50);
+    opacity: 1;*/
+    box-shadow: 0px 2px 10px #0f131c;
+   /*background-color:rgba(25,27,35,.9)*/
+}
+.nav-bar{
+    margin: 0 auto;
+    width: 1190px;
+    overflow: hidden;
+}
+.nav-bar .logo{
+    width: 106px;
+    height: 35px;
+    float: left;
+    line-height: 70px;
+}
+.nav-bar .logo a{}
+.nav-bar .logo a img{}
+.nav-bar .ul-list{
+    width: 687px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+/*    background-color: #6e6e6e;*/
+}
+.nav-bar .ul-list .mr-l{margin-left: 40px;}
+.nav-bar .ul-list li{
+  margin-right: 29px;
+  display: inline;
+}
+.nav-bar .ul-list li a{
+    font-size: 22px;
+    color: #dae1e5;
+}
+.nav-bar .ul-list li a:hover{
+  text-decoration: none;
+}
+.nav-bar .getino{
+    float: left;
+    width: 397px;
+    height: 70px;
+    /*background-color:#e4f4ff ;*/
+    position: relative;
+}
+.nav-bar .getino .search-box{
+    width: 270px;
+    height: 60px;
+    background-color: #0f131c;
+    border-radius: 10px;
+    position: absolute;
+    top:7px;
+    left:32px;
+}
+.search-box .box-wrap{
+   margin-left: 21px;
+   margin-top: 13px;
+}
+.search-box .box-wrap .search-txt{
+    width: 233px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    top:12px;
+    outline: none;
+    border:none
+}
+.search-box .box-wrap .search-img{display:none}
+.search-box .box-wrap .search-btn{
+    width: 30px;
+    height: 30px;
+    outline: none;
+    background: none;
+    background-image: url("../images/search-img.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 5px;
+    border-left:1px solid  #0f131c;
+    position: absolute;
+    top:15px;
+    right:23px;
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+
+}
+.getino .search-msg-login{
+    float: right;
+}
+.getino .search-msg-login li{
+    line-height: 70px;
+    margin-left: 10px;
+    padding: 0!important;
+}
+.getino .search-msg-login{}
+.getino .search-msg-login li{display: inline-block}
+.getino .search-msg-login li img{display: inline-block}
+.getino .search-msg-login .search-ico{}
+.getino .search-msg-login .msg{position: relative}
+.getino .search-msg-login .msg .msg-ico{}
+.getino .search-msg-login .msg .msg-tip{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 16px;
+    left: 25px;
+    background-color:#f05959;
+    border-radius: 50%;
+    line-height: 14px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.getino .search-msg-login .login{}
+.getino .search-msg-login .login-ico{}
+
+/*主体内容*/
+.wrap{
+    background-color: rgba(11,11,11,.3);
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+}
+.main{
+    width:1190px;
+    height: auto;
+    margin: 0 auto;
+}
+.main .cont{
+    width: 1190px;
+    height: auto;
+    margin: 0 auto;
+}
+.cont .cont-left{
+    float: left;
+   /* width: 396px;*/
+    border-right:1px solid #342c25;
+    font-size: 0px;
+}
+
+.cont .cont-right{
+    float: left;
+    width: 793px;
+}
+
+.cont-right .right-top{
+    width: 793px;
+    height: 290px;
+    *height : 289px;
+    border-bottom: 1px solid #352c26;
+    font-size: 0px;
+}
+
+.cont-right .right-bot{}
+.cont-right .right-bot ul{}
+.cont-right .right-bot ul li{float:left;}
+.right-top .top-left{
+    float: left;
+    width: 530px;
+    height: 289px;
+}
+.right-top .top-left .carousel-img{}
+.right-top .top-left .carousel-img li{float: left}
+.right-top .top-right{
+    float: left;
+    width: 263px;
+    height: 289px;
+    background: #3e3e3e;
+}
+.right-top .top-right .txt-title{
+    width: 263px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 15px;
+   /* padding-top: 9px;*/
+    margin-top:0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #37383a;
+}
+.right-top .top-right .txt-title strong{
+    display: block;
+    margin-top:9px
+}
+.right-top .top-right .txt-title small{
+    font-size: 14px;
+    color: #4c4c4c;
+    font-weight: bold;
+    display: block;
+}
+.right-top .top-right .txt-title .carousel-txt-list{
+    width: 263px;
+    height: 238px;
+    overflow: hidden;
+}
+ .carousel-txt-list li{
+    width: 263px;
+    height: 49px;
+    line-height: 49px;
+    border-bottom: 1px dashed #2b2b2b;
+    text-indent: 16px;
+    font-size:14px;
+}
+.carousel-txt-list li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.carousel-txt-list li a:hover{
+    color: #d2d2d2;
+}
+.right-bot .line-1{height:203px;border-left:1px solid #352c26;border-right:1px solid #352c26}
+.right-bot .line-2{height:203px;border-right:1px solid #352c26;}
+
+ /*意起找*/
+.found{}
+.found .found-top{
+    width: 1190px;
+    height: 32px;
+    line-height: 32px;
+    background-color: darkseagreen;
+    margin-top: 44px;
+}
+.found .found-top .found-top-left{
+    float: left;
+}
+.found .found-top .found-top-left h2{
+    width: 203px;
+    line-height: 32px;
+    font-family:"微软雅黑";
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-indent: 62px;
+    background-image: url("../images/instructions-ico.png");
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+
+}
+.found .found-top .found-top-right{
+    float: right;
+}
+.found .found-top .found-top-right ul{
+    width: 397px;
+    height: 32px;
+    margin-right: 5px;
+    background-color: #ffe9e9;
+}
+.found .found-top .found-top-right ul li{
+    background-image: url("../images/instructions-ico.png");
+    background-repeat: no-repeat;
+    font-family: "微软雅黑";
+    float: left;
+    list-style: none;
+}
+.found .found-top .found-top-right ul .eat{
+    width: 83px;
+    background-position:0 -104px;
+    text-indent: 22px;
+
+}
+.found .found-top .found-top-right ul .play{
+    width: 83px;
+    background-position:0 -69px ;
+    text-indent: 22px;
+}
+.found .found-top .found-top-right ul .look{
+    width: 75px;
+    background-position: 0px -160px;
+    text-indent: 34px;
+}
+.found .found-top .found-top-right ul span{
+    color:#ffffff;
+    font-size: 14px;
+}
+
+.found .found-list{
+    width:1190px;
+    height:450px;
+    margin-top: 10px;
+}
+.found-list .list-left{
+    float: left;
+    width: 390px;
+    margin-right: 10px;
+}
+.list-left .food-1{}
+.list-left .food-tip-1{}
+
+.found-list .list-right{
+    float: left;
+    width: 790px;
+    height: 450px;
+}
+.list-right .right-box{}
+.list-right .right-box li{
+    float: left;
+    width: 390px;
+    height: 220px;
+    overflow: hidden;
+}
+.list-right .right-box .box-one{margin-right: 10px}
+.list-right .right-box .box-two{}
+.list-right .right-box .box-three{margin-top: 10px;margin-right: 10px;}
+.list-right .right-box .box-four{margin-top: 10px;}
+
+.right-box .box-base{}
+.right-box .box-base .food-base{}
+.right-box .box-base .food-base .box-txt-base{}
+.right-box .box-base .food-base .box-txt-base h2{}
+.right-box .box-base .food-base .box-txt-base p{}
+
+
